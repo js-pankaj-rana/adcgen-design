@@ -1,4 +1,4 @@
-import { Container, Button, Card, Row, Col, Nav } from "react-bootstrap";
+import { Container, Button, Card, Row, Col, Nav, InputGroup, Form, FormControl } from "react-bootstrap";
 import dropdownIcon from './assets/icons/dropDown.svg'
 import calender from './assets/icons/calender.svg'
 
@@ -48,21 +48,51 @@ export default function App() {
         <Container fluid className="g-0 mt-4">
           <Row className="g-0">
             <Col md="3" className="mb-3">
-              <label htmlFor="formGroupExampleInput" className="form-label custom-label">Access num search</label>
-              <div className="input-group">
-                <input type="text" className="form-control" aria-describedby="basic-addon2" id="formGroupExampleInput" />
-
-                <span className="input-group-text input-dropdown">
+              <Form.Label htmlFor="formGroupExampleInput" className="form-label custom-label">
+                Access num search
+              </Form.Label>
+              <InputGroup className="mb-3">
+                <FormControl id="basic-url" aria-describedby="basic-addon2" id="formGroupExampleInput" />
+                <InputGroup.Text className="input-dropdown" id="basic-addon3">
                   <img src={dropdownIcon} />
-                </span>
-
-              </div>
+                </InputGroup.Text>
+              </InputGroup>
             </Col>
             <Col md="2" className="text-center">
               or
             </Col>
             <Col md="3" className="mb-3">
-              <label htmlFor="formGroupExampleInput" className="form-label custom-label">Access num search</label>
+              <Form.Label htmlFor="formGroupExampleInput" className="form-label custom-label">
+                Access num search
+              </Form.Label>
+              <InputGroup className="mb-3">
+                <FormControl id="basic-url" aria-describedby="basic-addon2" id="formGroupExampleInput" />
+                <InputGroup.Text className="input-dropdown" id="basic-addon3">
+                  <img src={dropdownIcon} />
+                </InputGroup.Text>
+              </InputGroup>
+            </Col>
+          </Row>
+          <Row className="g-0">
+          <Col md="3" className="mb-3">
+              <Form.Label htmlFor="formGroupExampleInput" className="form-label custom-label">
+              Date (optiional)
+              </Form.Label>
+              <InputGroup className="mb-3">
+                <FormControl id="basic-url" aria-describedby="basic-addon2" id="formGroupExampleInput" />
+                <InputGroup.Text className="input-dropdown" id="basic-addon3">
+                  <img src={calender} />
+                </InputGroup.Text>
+              </InputGroup>
+            </Col>
+
+            
+
+            <Col md="2" className="mb-3">
+
+            </Col>
+            <Col md="3" className="mb-3">
+              <label htmlFor="formGroupExampleInput" className="form-label custom-label">Toolbar Display</label>
               <div className="input-group">
                 <input type="text" className="form-control" aria-describedby="basic-addon2" id="formGroupExampleInput" />
 
@@ -71,35 +101,9 @@ export default function App() {
                 </span>
               </div>
             </Col>
-            </Row>
-            <Row className="g-0">
-            <Col md="3" className="mb-3">
-             <label htmlFor="formGroupExampleInput" className="form-label custom-label">Date (optiional)</label>
-                <div className="input-group">
-                  <input type="text" className="form-control" aria-describedby="basic-addon2" id="formGroupExampleInput" />
-
-                  <span className="input-group-text input-dropdown">
-                    <img src={calender} />
-                  </span>
-                </div>
-            </Col>
-            
-            <Col md="2" className="mb-3">
-            
-            </Col>
-            <Col md="3" className="mb-3">
-              <label htmlFor="formGroupExampleInput" className="form-label custom-label">Toolbar Display</label>
-                <div className="input-group">
-                  <input type="text" className="form-control" aria-describedby="basic-addon2" id="formGroupExampleInput" />
-
-                  <span className="input-group-text input-dropdown">
-                    <img src={dropdownIcon} />
-                  </span>
-                </div>
-            </Col>
           </Row>
-          </Container>
-          <Card>
+        </Container>
+        <Card>
           <Card.Header className="card-title">
             Requested item URL
           </Card.Header>
@@ -107,12 +111,13 @@ export default function App() {
             <Container>
               <Row className="g-0">
                 <Col md="12" className="g-0">
-                  <Button variant="default" className="clipboard-button active"><i className="icon icon-copy active" />Copy to clipboard</Button>
+                  <Button variant="default" className="clipboard-button active">
+                    <i className="icon icon-copy active" />
+                    Copy to clipboard
+                  </Button>
                   <Button variant="default" disabled={false} as="a" className="link-url" href={`http://abc.com`} target="new">http://abc.com</Button>
-
                 </Col>
-
-                </Row>
+              </Row>
             </Container>
           </Card.Body>
         </Card>
