@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -49 -167 )">
+    <image preserveAspectRatio="none" style="overflow:visible" width="18" height="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEJSURBVDhPrZQ9DoJAEIVnPYGFJYewtKDQaOEx4CwexANY2poYQ2PpHSwhgROwvrfMGsHFH/RLJss8Zp6zyGIkgLV2jljicoqYOVHkjLgYY06IQyP1gOZxXddbrC9BzQ7LRNva4EaMgqur/ACtjbW9AQIn+djEoz1jtRGB8HY7fbCXHgbXc6xHJj+wGMGI/04vVVVJmqZSFIUqzzgPjLbniCGyLLNRFFnWcmUegh40yjVvUZbl3cQHc+pd6NFrlCRJy8QH9S7eKLi1PM+DE1HvQg8abTR/4otntKHRWvMgfCbcTmiSB1b4MfdC8uwMgr3OhCCfQBh6RNqHF8Lvh9aDG4M/I3/6sIncAA3zSfwmRTuqAAAAAElFTkSuQmCC" x="49px" y="167px" />
+    <path d="M 58 167.5  C 62.76 167.5  66.5 171.24  66.5 176  C 66.5 180.76  62.76 184.5  58 184.5  C 53.24 184.5  49.5 180.76  49.5 176  C 49.5 171.24  53.24 167.5  58 167.5  Z " stroke-width="1" stroke="#797979" fill="none" />
+  </g>
+</svg>
